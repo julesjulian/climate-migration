@@ -13,4 +13,15 @@ A simple model to estimate migration due to temperature increase based on data f
 ##Output
 * Climate refugees by country
 
-This is by no means a scientific study. But you are welcome to fork it and turn it into one.
+##Run
+Run as a regular ipython notebook with
+```bash
+ipython notebook climate-migration.ipynb
+```
+or run as slideshow with
+```bash
+ipython nbconvert climate-migration.ipynb --to slides --post serve
+```
+
+##Disclaimer
+This is by no means a scientific study. You are welcome to fork the repo and turn it into one.
